@@ -1,0 +1,30 @@
+.Login{
+    width: 100%;
+    height: auto;
+    min-height: 48vh;
+    /* background-color: black; */
+    background: linear-gradient(#ffffff14, #ffffff14), url(https://media.istockphoto.com/id/899255710/photo/abstract-particle-background.jpg?s=170667a&w=0&k=20&c=s_A6VERAWVBETQuU2vQaIiiZqpb4oURQ6u59TG6zSqI=) no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: white; */
+    /* object-fit: cover; */
+    padding: 10rem 0rem;
+}
+
+.LoginRow{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginCol2{
+    margin-top: 2rem;
+}
+
+.loginbtn{
+    margin-top: 2rem;
+}
+
