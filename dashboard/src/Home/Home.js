@@ -4,7 +4,8 @@ import Avatar from '@mui/material/Avatar';
 import {brown} from '@mui/material/colors';
 import Calender from '../Components/Calender';
 // import { CircularProgress } from '@mui/material';
-import CircularStatic from '../Components/CircularStatic'
+import CircularStatic from '../Components/CircularStatic';
+
 
 import {Line} from 'react-chartjs-2';
 import{
@@ -279,7 +280,9 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className='complete-task-chart'></div>
+              <div className='complete-task-chart'>
+                <img src='https://dhtmlx.com/blog/wp-content/uploads/2019/09/Base-line-in-JS-bar-chart.jpg'></img>
+              </div>
             </div>
           </div>
         </div>
@@ -313,6 +316,89 @@ const Home = () => {
               <div className='calender-card'>
               <Calender />
               
+              </div>
+            </div>
+          </div>
+
+          <div className='myTask'>
+            <div className='myTask-flex'>
+              <div className='myTask-head'>
+                <div className='myTask-cont'>
+                  <h3>My Tasks</h3>
+                </div>
+                <div className='myTask-icon'>
+                <i class='bx bx-dots-horizontal-rounded'></i>
+                </div>
+              </div>
+
+              <div className='mytask-list'>
+                <div className='list-flex'>
+                <div className='list'>
+                  <div className='list-checkbox'>
+                  <i class='bx bxs-check-circle'></i>
+                  </div>
+                  <div className='list-cont'>
+                    <h3>Design Home Page</h3>
+                    <p>Wed, Nov 13</p>
+                  </div>
+                </div>
+                <div className='avatar'>
+                    <div className='avatar-img'>
+                    <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                    </div>
+                </div>
+                </div>
+
+                <div className='list-flex'>
+                <div className='list'>
+                  <div className='list-checkbox'>
+                  <i class='bx bx-circle'></i>
+                  </div>
+                  <div className='list-cont'>
+                    <h3>UI animations</h3>
+                    <p>Wed, Nov 13</p>
+                  </div>
+                </div>
+                <div className='avatar'>
+                    <div className='avatar-img'>
+                    <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+                    </div>
+                </div>
+                </div>
+
+                <div className='list-flex'>
+                <div className='list'>
+                  <div className='list-checkbox'>
+                  <i class='bx bx-circle'></i>
+                  </div>
+                  <div className='list-cont'>
+                    <h3>NTF platForm mobile</h3>
+                    <p>Wed, Nov 13</p>
+                  </div>
+                </div>
+                <div className='avatar'>
+                    <div className='avatar-img'>
+                    <Avatar alt="Agnes Walker" src="/static/images/avatar/4.jpg" />
+                    </div>
+                </div>
+                </div>
+
+                <div className='list-flex'>
+                <div className='list'>
+                  <div className='list-checkbox'>
+                  <i class='bx bx-circle'></i>
+                  </div>
+                  <div className='list-cont'>
+                    <h3>Design icons</h3>
+                    <p>Wed, Nov 13</p>
+                  </div>
+                </div>
+                <div className='avatar'>
+                    <div className='avatar-img'>
+                    <Avatar alt="Trevor Henderson" src="/static/images/avatar/5.jpg" />
+                    </div>
+                </div>
+                </div>
               </div>
             </div>
           </div>

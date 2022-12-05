@@ -119,6 +119,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem ;
     
 }
 
@@ -147,6 +148,8 @@ main{
 .profile-name h1{
     font-family: sans-serif;
     font-size: 1.5rem;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .profile-name a{
@@ -154,6 +157,7 @@ main{
     font-family: sans-serif;
     font-size: .8rem;
     color: black;
+    transition: 0.5s;
 }
 
 
@@ -240,11 +244,83 @@ main{
 .calender{
     width: 100%;
     height: auto;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(207, 204, 204);
 }
 
 .calender-box{
     padding: 2rem 0rem;
+}
+
+.myTask{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-bottom: solid 1px rgb(216, 213, 213);
+}
+
+.myTask-flex{
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.myTask-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myTask-cont h3{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.myTask-icon i{
+    font-size: 1rem;
+}
+
+.mytask-list{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.list-flex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(207, 205, 205);
+    padding: .5rem 0rem;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    /* padding: 1rem 0rem; */
+}
+
+.list-checkbox{
+    padding-right: .5rem;
+}
+
+.list-checkbox i{
+    font-size: 1.6rem;
+}
+
+.list-cont{
+    line-height: 1.5rem;
+}
+
+.list-cont h3{
+    font-size: .8rem;
+    font-family: sans-serif;
+}
+
+.list-cont p{
+    font-size: .8rem;
+    font-family: sans-serif;
+}
+
+.avatar{
+
 }
 
 
@@ -462,8 +538,13 @@ main{
 .complete-task-chart{
     margin-top: 1rem;
     width: 100%;
-    height: 100px;
+    height: auto;
     border: solid 1px rgb(185, 179, 179);
+}
+
+.complete-task-chart img{
+    width: 100%;
+    height: auto;
 }
 
 
@@ -491,6 +572,14 @@ main{
     justify-content: center;
     align-items: center;
     padding: 4.4rem;
+}
+
+.profile-name h1:hover{
+    color: rgb(40, 14, 187);
+}
+
+.profile-name a:hover{
+    color: rgb(40, 14, 187);
 }
 
 
