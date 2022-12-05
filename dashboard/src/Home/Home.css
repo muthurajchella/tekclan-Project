@@ -1,0 +1,499 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px rgb(218, 215, 215);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+    height: auto;
+    display: flex;
+    border-right: solid 1px rgb(190, 189, 189);
+    padding: 1rem;
+    align-items: center;
+    
+}
+
+.logo-con{
+    margin-left: .5rem;
+    line-height: 1rem;
+    cursor: pointer;
+}
+
+.avatar{
+    cursor: pointer;
+}
+
+.logo-con h1{
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.logo-con h2{
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: rgb(145, 141, 141);
+}
+
+.search{
+    width: 55%;
+    height: auto;
+}
+
+.search-cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.name{
+    font-family: sans-serif;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-search input{
+    padding: .3rem;
+    border: none;
+    font-family: sans-serif;
+    outline: none;
+    border-radius: .5rem;
+
+}
+
+.settings{
+    width: 25%;
+    height: auto;
+    border-left: solid 1px rgb(212, 211, 211);
+    padding: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings-cont h1{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.settings-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ball{
+    margin-right: 1rem;
+}
+
+
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.profile{
+    width: 20%;
+    height: auto;
+    border-right: solid 1px rgb(206, 204, 204);
+    /* padding: 2rem 0rem; */
+}
+
+.profile-cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profile-img{
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.profile-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+
+.profile-name{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.profile-name h1{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.profile-name a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: black;
+}
+
+
+.nav-links{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.nav-links ul{
+    width: 70%;
+    margin: auto;
+    line-height: 3rem;
+}
+
+.nav-links ul li{
+    list-style: none;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+.dayschedules{
+    width: 25%;
+    height: auto;
+    border-left: solid 1px rgb(211, 209, 209);
+}
+
+.timer{
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px rgb(214, 214, 214);
+    /* padding: 1rem; */
+}
+
+.time-cont{
+    padding: 2rem;
+}
+
+.timeHead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeHead h1{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.showTime{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.showTime input{
+    border: none;
+    padding: 1rem 0rem;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.time-icon{
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.time-icon i{
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding-right: 1rem;
+}
+
+.calender{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black;
+}
+
+.calender-box{
+    padding: 2rem 0rem;
+}
+
+
+/*Overview Start*/
+.overview{
+    width: 55%;
+    height: auto;
+    /* border-left: 1px solid black; */
+}
+
+.overview-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.overview-daywork{
+    width: 100%;
+    height: auto;
+    padding: 2rem 0rem;
+}
+
+.overview-daywork-head{
+    width: 100%;
+    height: auto;
+}
+
+.overview-daywork-head h1{
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: rgb(75, 73, 73);
+}
+
+.overview-daywork-boxs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.overview-daywork-box1{
+    width: 33.33%;
+    padding-right: 1rem;
+}
+
+.overview-daywork-box1-card{
+    width: 100%;
+    height: auto;
+    padding: 1rem ;
+    background-color: rgb(241, 244, 247);
+    transform: translateY(10%);
+    transition: .5s;
+}
+
+.box1-count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+.count h1{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.count-icon a{
+    text-decoration: none;
+    color: black;
+}
+
+.count-icon a i{
+   font-size: 1rem;
+}
+
+.count-para{
+    padding-top: .5rem;
+}
+
+.count-para p{
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: black;
+}
+
+
+.overview-chart{
+    width: 100%;
+    height: auto;
+    padding: 2rem 0rem;
+    /* border: solid 1px red; */
+}
+
+.chart-flex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 1px red; */
+}
+
+.chart-box1{
+    width: 40%;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.chart-box1-cont{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    padding: 1rem;
+}
+
+.working-progress-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.working-progress-cont h1{
+    font-family: sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.working-progress-icon i{
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.progress-para{
+    padding-top: .5rem;
+}
+
+.progress-para p{
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: rgb(92, 91, 91);
+}
+
+.chart-box2{
+    width: 60%;
+    height: auto;
+}
+
+.chart-box2-cont{
+    width: 100%;
+    height: auto;
+    background-color: rgb(190, 112, 241);
+    padding: 1rem;
+}
+
+
+.working-hour-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.working-hour-cont h1{
+    font-family: sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.working-hour-icon i{
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hour-para{
+    padding-top: .5rem;
+}
+
+.hour-para p{
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: rgb(49, 48, 48);
+}
+
+.completed-task{
+    width: 100%;
+    height: auto;
+}
+
+.completed-task-flex{
+    width: 100%;
+    height: auto;
+}
+
+.completed-task-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed-task-cont h1{
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.completed-task-icon a{
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.completed-task-icon a i{
+    font-size: 1rem;
+    color: black;
+}
+
+.complete-task-chart{
+    margin-top: 1rem;
+    width: 100%;
+    height: 100px;
+    border: solid 1px rgb(185, 179, 179);
+}
+
+
+
+/*Overview End*/
+
+/*Hover*/
+
+.name:hover span{
+    color: rgb(40, 14, 187);
+}
+
+.overview-daywork-box1-card:hover{
+    transform: translateY(0);
+}
+
+.nav-links ul li a:hover{
+   color: rgb(40, 14, 187);
+   transform: scale(1.1);
+   
+}
+
+.circle-progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.4rem;
+}
+
+
+
+
+
